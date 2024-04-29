@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {margin: 3em 3em;
+margin-bottom: 200px;}
+
+
+main,footer, header {width: 100%;}
+
+footer {
+    background-color: #000000;
+    height: 300px;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 23px;
+    margin-right: 80px;
+}
+
+section {
+    margin: 3em;
+}
+
+section div {
+    margin: 0 auto;
+    display: flex;
+    margin-right: 6em;
+}
+
+div img {
+    width: 33.33%;
+    margin: 0 3em 1em 0;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    border: 1px solid #000000;
+}
+
+#secondSection{
+    width: 100%;
+}
+
+#secondSection img {
+    width: 58.33%;
+    margin: 6.5em auto;
+    display: block;
+    border: 1px solid #000000;
+}
+
+#lastSection h2 {
+text-align: right;
+}
+
+h1{
+    color: #850855;
+    margin-bottom: 35px;
+    line-height: 60px;
+}
+
+h1, h2{
+text-transform:uppercase;
+text-align:left;
+font-size: 3.8em;
+font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+font-size: 2.2em;
+text-transform: none;
+font-weight: 600;
+line-height: 40px;
+width: 41.67%;
+}
+
+h2,p {
+    margin-bottom:24px;
+}
+
+p,a {
+    font-size: 1em;
+    font-weight: 300;
+    width: 41.67%;
+}
+
+a {   
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    border:1px solid;
+    padding: 0.5em 1em;
+}
+
+a:hover {
+background-color:#850855;
+color: white;
+}
+
+
+
+@media(max-width: 768px){
+
+body {
+font-size: 10px;
+}
+
+}
